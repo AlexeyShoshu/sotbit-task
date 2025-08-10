@@ -1,0 +1,66 @@
+/*.htaccess
+*.htaccess.restore
+/.htsecure
+/robots.txt
+/.gitignore
+/.htaccess*
+/urlrewrite.php
+/web.config
+/*web.config
+*.log
+*.sql
+*.txt
+*.pdf
+*.txt_backup
+/sitemap*.xml
+/*.dt
+/*.tar.gz
+/*.gz
+/*.tar
+/*.zip
+/*.bak
+/*.old
+/*~
+*/_*
+/_*
+.DS_Store
+Thumbs.db
+/.idea/
+/vendor/
+/vendor_js/
+/node_modules/
+/bin/
+/bower_components/
+/1c_manual/
+sitemap*.xml
+yandex*.html
+mailru*.html
+google*.html
+composer.phar
+restore.php
+test.php
+/.bash_history
+.xml
+/*.enc.gz
+/*.enc.gz.*
+/.vscode
+  /.osp
+
+# исключаем ВСЮ папку bitrix, но ниже настроим включение нужных папок
+/bitrix/*
+
+# включаем папку php_interface и исключаем файл dbconn.php
+!/bitrix/php_interface/
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/*.bak
+
+# включаем папку шаблонов
+!/bitrix/templates/
+
+# исключаем служебные и ненужные папки проекта
+/.cache
+/cgi-bin
+/upload
+/temp
+/xhprof
+/local/templates/sotbit_origami/theme/custom/
